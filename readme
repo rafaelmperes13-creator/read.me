@@ -1,0 +1,34 @@
+# ⚡ Calculadora de Consumo Elétrico Inteligente
+
+> Sistema desenvolvido para estimar o gasto mensal de energia de eletrodomésticos, auxiliando no controle financeiro e consciente da eletricidade.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
+
+---
+
+## 📝 Sobre o Projeto
+Este projeto faz parte de um programa de iniciação em tecnologia. O objetivo principal é calcular o consumo em **kWh** de um aparelho específico e converter esse gasto para valores em **Reais (R$)**, permitindo uma visão clara do impacto de cada equipamento na conta de luz.
+
+## 🧮 Lógica de Cálculo
+Para chegar ao resultado, o sistema utiliza a seguinte fórmula matemática:
+
+$$consumoMensal = \frac{Potência(W) \times Horas/Dia \times 30}{1000}$$
+
+*Onde o valor final é multiplicado pela tarifa de **R$ 1,00/kWh** para gerar o custo total.*
+
+---
+
+## 💻 Exemplo de Saída
+Ao executar o programa com os dados de uma geladeira de alta potência, o resultado exibido é:
+
+```text
+═══ Calculadora de Consumo Inteligente ═══
+📦 APARELHO: Geladeira
+🔌 POTÊNCIA: 6500W
+⏱️  USO DIÁRIO: 24h
+────────────────────────────────────────
+💡 CONSUMO MENSAL: 4,680.00 kWh/mês
+💰 CUSTO MENSAL: R$ 4,680.00
+════════════════════════════════════════
